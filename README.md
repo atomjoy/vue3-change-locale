@@ -32,7 +32,9 @@ app.use(i18n)
 <template>
 	<div class="locale-changer">
 		<select v-model="locale" class="locale-changer-select">
-			<option v-for="lang in availableLocales" :key="`locale-${lang}`" :value="lang">{{ t(lang) }}</option>
+			<option v-for="lang in availableLocales" 
+				:key="`locale-${lang}`" 
+				:value="lang">{{ t(lang) }}</option>
 		</select>
 	</div>
 </template>
