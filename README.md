@@ -51,6 +51,8 @@ watch(
 	() => locale.value,
 	(lang) => {
 		console.log('Changed locale', lang)
+		// Do something on change here ...
+		// store.changeServerLang()
 	}
 )
 
