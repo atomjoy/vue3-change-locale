@@ -49,3 +49,26 @@ watch(
 
 const msg = computed(() => t('example.msg'))
 </script>
+
+<style scoped>
+.locale-changer {
+	float: right;
+	width: auto;
+	height: auto;
+	padding: 5px;
+}
+.locale-changer-select {
+	float: right;
+	width: 50px;
+	padding: 2px;
+	text-align: center;
+	border: 0px;
+	background: transparent;
+	font-size: 15px;
+}
+.locale-changer-select:focus {
+	border: none;
+	box-shadow: none;
+}
+</style>
+
