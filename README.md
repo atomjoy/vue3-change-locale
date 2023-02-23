@@ -59,3 +59,6 @@ watch(
 const msg = computed(() => t('example.msg'))
 </script>
 ```
+
+# Links
+<https://vue-i18n.intlify.dev/guide/advanced/composition.html#global-scope>
