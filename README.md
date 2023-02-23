@@ -1,5 +1,5 @@
-# Vue3 change locale
-Vue 3 Composition Api change locale with <script setup>.
+# Vue 3 Composition Api change locales
+Vue 3 Composition Api change locales with <script setup>.
 
 ## main.js
 ```js
